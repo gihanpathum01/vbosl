@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Vlogs</title>
+    <!-- TailwindCSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="font-roboto bg-gray-100 text-gray-800">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white p-6 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold">Travel Vlogs</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="hover:text-yellow-300">Home</a></li>
+                    <li><a href="#vlogs" class="hover:text-yellow-300">Vlogs</a></li>
+                    <li><a href="#about" class="hover:text-yellow-300">About</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-cover bg-center h-[500px] text-white relative" style="background-image: url('https://source.unsplash.com/1600x900/?travel');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="container mx-auto text-center relative z-10 py-24">
+            <h2 class="text-5xl font-bold">Explore the World with Us</h2>
+            <p class="mt-4 text-lg">Join us on epic adventures and discover breathtaking destinations.</p>
+            <a href="#vlogs" class="mt-6 inline-block bg-yellow-500 text-white py-2 px-6 rounded-full text-xl hover:bg-yellow-400">Watch Our Vlogs</a>
+        </div>
+    </section>
+
+    <!-- Vlogs Section -->
+    <section id="vlogs" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8">Our Latest Vlogs</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Vlog 1 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/400x300/?beach" alt="Vlog 1" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Exploring the Beaches of Bali</h3>
+                        <p class="text-gray-600 mt-2">Join us as we explore the serene beaches of Bali. From sunrise to sunset, witness the beauty of nature.</p>
+                        <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Watch Now</a>
+                    </div>
+                </div>
+                <!-- Vlog 2 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/400x300/?mountain" alt="Vlog 2" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Mountain Adventure in Nepal</h3>
+                        <p class="text-gray-600 mt-2">Get ready for an adrenaline-filled journey through the majestic mountains of Nepal!</p>
+                        <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Watch Now</a>
+                    </div>
+                </div>
+                <!-- Vlog 3 -->
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="https://source.unsplash.com/400x300/?city" alt="Vlog 3" class="w-full h-64 object-cover">
+                    <div class="p-4">
+                        <h3 class="text-xl font-semibold">Exploring the Streets of Tokyo</h3>
+                        <p class="text-gray-600 mt-2">From neon lights to traditional temples, Tokyo offers a blend of modernity and history.</p>
+                        <a href="#" class="mt-4 inline-block text-blue-600 hover:underline">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </sectio
